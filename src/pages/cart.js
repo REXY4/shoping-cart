@@ -17,6 +17,15 @@ const CartPages = ({
                 }</h1>
             </Row>
             <Row>
+                {cart === 0 ? 
+                    <Col md={8}>
+                        <Card>
+                        <Card.Body >
+                        <h1 style={{textAlign : "center"}}>Belum ada cart</h1>
+                        </Card.Body>
+                        </Card>
+                    </Col>
+                    :
                 <Col md={8}>
                 <Card>
                 <Card.Body>
@@ -53,6 +62,7 @@ const CartPages = ({
                     </Card.Body>
             </Card>
             </Col>
+                    }
             <Col md={4}>
                         <Card>
                             <Card.Body>

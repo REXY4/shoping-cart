@@ -28,7 +28,7 @@ function NavbarBasic({cart}) {
                 marginLeft : "17px",
                 marginTop: "-5px"
               }}>
-              {cart && (cart + 1) }
+              {cart && (cart) }
               </Badge>{' '}
                 <Image src={Cart} color="white" width={24} height={24}/>
               </div>

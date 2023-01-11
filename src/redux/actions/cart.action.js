@@ -4,6 +4,7 @@ const AddCart = (item) => async (dispatch) =>{
             product : item,
             cart : item.length
         }
+        console.log(item)
         dispatch({
             type : "ADD_CART",
             payload,
