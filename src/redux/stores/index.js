@@ -8,7 +8,7 @@ import reducers from '../reducers';
 const persistConfig = {
   key: 'root',
   storage,
-//   blacklist: ['alert', 'forex'],
+ blacklist : ["product",],
 //   whitelist: ['auth', 'reportNoRefresh'],
 };
 
